@@ -32,7 +32,7 @@ const Navber = () => {
             {myItem}
             </ul>
           </div>
-          <img src={Logo} alt="" width={100} />
+          <img src={Logo} alt="" width={100} /> <p>Donat-blood</p>
         </div>
       
       
