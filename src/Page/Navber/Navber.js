@@ -52,7 +52,8 @@ const Navber = () => {
             {myItem}
           </ul>
         </div>
-        <img src={Logo} alt="" width={100} /> <p>Donat-blood</p>
+        <img src={Logo} alt="" width={80} />{" "}
+        <p class="font-bold text-2xl">Blood Bank</p>
       </div>
 
       <div class="navbar-end hidden lg:flex">
