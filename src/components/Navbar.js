@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Hero from './Hero';
 
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
@@ -72,7 +71,7 @@ const Navbar = () => {
                                 <Link to="contact">Contact US</Link>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
-                                <Link to="contact">Register</Link>
+                                <Link to="register">Register</Link>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
                                 <Link to="contact">Login</Link>
@@ -83,7 +82,7 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
-        <Hero/>
+       
 
         </>
     );

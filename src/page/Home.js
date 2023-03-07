@@ -2,17 +2,18 @@ import React from 'react';
 import Donner from '../components/Donner';
 import Footer from '../components/Footer';
 import Future from '../components/Future';
-import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+
 
 const Home = () => {
     return (
         <div>
-            <Navbar/>
             
-            <Donner/>
-            <Future/>
-            
-            <Footer/>
+            <Hero/>
+            <Donner />
+            <Future />
+
+            <Footer />
         </div>
     );
 };
